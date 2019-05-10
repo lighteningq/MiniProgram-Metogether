@@ -1,0 +1,102 @@
+<view class="page">
+    <view class="page__hd">
+        <navigator url="../user_info/user_info">
+            <image src="../../assets/images/back.png" />
+        </navigator>
+        <view class="page__hd title">Edit My Profile</view>
+    </view>
+    <view class="page__bd">
+        <view class="page__bd albu">
+            <image src="http://file01.16sucai.com/d/file/2013/0602/20130602025633640.jpg" />
+            <image src="http://file01.16sucai.com/d/file/2013/0602/20130602025635517.jpg" />
+            <image src="http://file01.16sucai.com/d/file/2013/0602/20130602025640154.jpg" />
+            <image class="addImg" src="{{imgUrl}}" bindtap="uploadImg" />
+        </view>
+        <view class="user-info">
+            <view class="name">Jenny</view>
+            <view class="center">
+                <view class="age">♀20</view>
+                <view class="conste">Piecies</view>
+            </view>
+            <view class="active">Click to Edit</view>
+        </view>
+        <view class="sign">
+            <view class="sign__title">My Moment</view>
+            <view class="sign__content">
+                <image src="../../assets/images/editSign.png" />
+                <view class="sign__add">+</view>
+                <view class="sign__input">Add your personal Signature</view>
+            </view>
+        </view>
+        <view class="info">
+            <view class="info__title">My Info</view>
+            <view class="hyinfo">
+                <image src="../../assets/images/workbag.png" />
+                <view class="hyinfo__add">+</view>
+                <view class="hyinfo__input">Add Industry Info</view>
+            </view>
+            <view class="woinfo">
+                <image src="../../assets/images/workbag.png" />
+                <view class="woinfo__add">+</view>
+                <view class="woinfo__input">Add Occupation</view>
+            </view>
+            <view class="cominfo">
+                <image src="../../assets/images/company.png" />
+                <view class="cominfo__add">+</view>
+                <view class="cominfo__input">Company Info</view>
+            </view>
+            <view class="address">
+                <image src="../../assets/images/address.png" />
+                <view class="address__pro">Philadelphia,PA</view>
+            </view>
+            <view class="often">
+                <image src="../../assets/images/position.png" />
+                <view class="often__add">+</view>
+                <view class="often__input">Frequent Visits</view>
+            </view>
+        </view>
+        <view class="user-label">
+            <view class="mylabel">My Tags</view>
+            <image src="../../assets/images/label.png" />
+            <view class="firlab">Cute</view>
+            <view class="seclab">Procastinate</view>
+            </view>
+        <view class="hobby">
+            <view class="ho__title">My Interests</view>
+            <view class="ho__sports">
+                <image src="../../assets/images/sports.png" />
+                <view class="ho__sport">Sleep</view>
+            </view>
+            <view class="music">
+                <image src="../../assets/images/music.png" />
+                <view class="coun">Pop</view>
+                <view class="firsin">Nirvana</view>
+                <view class="secsin">Greatful Dead</view>
+            </view>
+            <view class="food">
+                <image src="../../assets/images/food.png" />
+                <view class="food__add">+</view>
+                <view class="food__input">Food that I like...</view>
+            </view>
+            <view class="movies">
+                <image src="../../assets/images/tv.png" />
+                <view class="movie">Killing Eve</view>
+            </view>
+            <view class="book">
+                <image src="../../assets/images/book.png" />
+                <view class="book__add">+</view>
+                <view class="book__input">Books I liked...</view>
+            </view>
+            <view class="place">
+                <image src="../../assets/images/place.png" />
+                <view class="place__add">+</view>
+                <view class="place__input">I have travelled to</view>
+            </view>
+        </view>
+        <view class="ques">
+            <view class="ques__title">My Q&A</view>
+            <view class="ques__add">+</view>
+            <view class="ques__input">Add Questions</view>
+        </view>
+    </view>
+</view>

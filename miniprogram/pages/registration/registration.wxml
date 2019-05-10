@@ -1,0 +1,11 @@
+<!--miniprogram/pages/registration/registration.wxml-->
+<view class ='container'>
+<view></view>
+<input bindinput='BindInputVal'>Your Name</input>
+<input bindinput='BindInputVal'>Your birthday(mm/dd/yyyy)</input>
+<input bindinput='BindInputVal'>Your Current Location</input>
+<input bindinput='BindInputVal'>Your Gender</input>
+<input bindinput='BindInputVal'>Your Occupation</input>
+<input bindinput='BindinputVal'>Your Organization</input>
+<input bindinput='BindInputVal'>Please Upload your image</input>
+</view>

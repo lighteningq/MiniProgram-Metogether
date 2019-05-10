@@ -1,0 +1,14 @@
+<!--miniprogram/pages/matchWindow.wxml-->
+<view>It is a Match!</view>
+<view>
+<!-- <button bindtap='startToChat'>start to chat!</button>
+<button bindtap='backToHome'>back to home</button> -->
+
+<navigator url="../user/user">
+<view> start to chat!</view>
+</navigator>
+
+<navigator url="../index/index">
+<view> back to home</view>
+</navigator>
+</view>

@@ -1,0 +1,57 @@
+.mp-swipe-card-item {
+  height: 100%;
+  width: 100%;
+  padding: 20rpx;
+  /* background: linear-gradient(to right bottom, red, orange, green, purple); */
+}
+
+
+.name{
+  text-align: left;
+  margin-top: 10rpx;
+  font-size: 64 rpx;
+  margin-bottom: 20rpx;
+}
+
+.enter{
+  color: #fff;
+  font-size: 20rpx;
+}
+.tags-wrap{
+  margin-left: -10rpx;
+}
+.conste-tag,.age-tag{
+  font-size: 12px;
+  height: 12px;
+  line-height: 12px;
+  padding: 5px;
+  color: #fff;
+  border-radius: 5px;
+  margin-bottom: 20rpx;
+
+  margin: 0 10rpx;
+  float: left;
+  
+}
+
+.conste-tag{ background: #FA454C;}
+.age-tag{ background: #9C2DFE; }
+
+.swipe-img{
+    width:700rpx;
+    height: 650rpx;
+    /* float: flex;
+    align-content: center; */
+    margin-top: -20rpx;
+    margin-left: -39rpx;
+
+}
+
+.status {
+    text-align:left;
+    margin-top: 10rpx;
+    line-height: 40rpx;
+    font-size: 30rpx;
+    color: rgba(207, 204, 204, 0.904);
+    /* margin-left: -15rpx; */
+}

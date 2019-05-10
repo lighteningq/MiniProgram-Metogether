@@ -1,0 +1,47 @@
+<view class="page">
+    <view class="user_info">
+        <navigator url="../user_info/user_info">
+            <image src="http://file01.16sucai.com/d/file/2013/0602/20130602025633640.jpg" />
+            <text>Jenny</text>
+            <text>Edit My Profile</text>
+        </navigator>
+    </view>
+    <view class="weui-cells">
+        <view class="weui-cell">
+            <view class="weui-cell__content">
+                <navigator url='../index/index'>
+                  <image src="../../assets/images/find.png" />
+                  <text>Back to Home</text>
+                </navigator>
+            </view>
+        </view>
+        <view class="weui-cell" >
+            <view class="weui-cell__content">
+                <image src="../../assets/images/love.png"   />
+                <text>Super Likes</text>
+            </view>
+        </view>
+        <navigator url="../setting/setting">
+        <view class="weui-cell" >
+                <view class="weui-cell__content">
+                    <image src="../../assets/images/seting.png"   />
+                    <text>Settings</text>
+                </view>
+        </view>
+        </navigator>
+        <navigator url="../help/help">
+        <view class="weui-cell" >
+                <view class="weui-cell__content">
+                    <image src="../../assets/images/guide.png"   />
+                    <text>Guide</text>
+                </view>
+        </view>
+        </navigator>
+        <view class="weui-cell" >
+                <view class="weui-cell__content">
+                    <image src="../../assets/images/share.png"   />
+                    <text>Share with Friends</text>
+                </view>
+        </view>
+    </view>
+</view>

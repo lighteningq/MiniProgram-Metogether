@@ -1,0 +1,13 @@
+<view class="mp-swipe-card-item">
+<image bind:tap="handleTap" class='swipe-img' src='{{itemData.profilePic}}'></image>
+  <view  class="name">{{itemData.name}}</view>
+  <view class="tags-wrap">
+  <view class="age-tag">{{itemData.birthDay}}</view>
+  <view class="conste-tag">{{itemData.lastloginLocation}}</view>
+  <text class='enter'>this is an enter</text>
+  </view>
+  <view class='status'>{{itemData.organization}}</view>
+  
+</view>
+
+
